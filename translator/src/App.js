@@ -34,7 +34,7 @@ function App() {
     <div className="container">
       <h1>English to Tagalog Translator</h1>
       <div className="input-group">
-        <label>English Word:</label>
+        <label>English Word: </label>
         <input type="text" value={englishWord} onChange={(e) => setEnglishWord(e.target.value)} />
       </div>
       <button onClick={translateWord}>Translate</button>
